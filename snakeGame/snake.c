@@ -250,7 +250,7 @@ void drawSurface(char **array, int score)
                 }
                 printf("I\n");
         }
-        sleep(1);
+        //sleep(1);
         if (setjmp(saveBuff) == 0)
                 clearScreen();
         else
