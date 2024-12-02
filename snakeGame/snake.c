@@ -380,7 +380,7 @@ int main(void)
                         }
                         else if (pressedKey == 101)
                         {
-                                usleep(500);
+                                // usleep(500);
                                 printf("\nAre u sure u want to exit? (y/n): ");
                                 pressedKey = getchar();
                                 if (pressedKey == 121)
